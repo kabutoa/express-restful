@@ -1,7 +1,6 @@
 {
   "name": "express-restful",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/app.ts",
@@ -14,9 +13,9 @@
     "pm2:logs": "pm2 logs express-restful",
     "pm2:monit": "pm2 monit"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["express", "restful", "api"],
+  "author": "kabutoa",
+  "license": "MIT",
   "devDependencies": {
     "@types/body-parser": "^1.19.5",
     "@types/compression": "^1.7.5",
